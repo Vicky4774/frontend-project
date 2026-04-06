@@ -1,0 +1,36 @@
+  * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: rgb(2, 2, 2);
+            background-image: url("sky.jpg");
+            
+
+        }
+
+        .clock {
+            background: #000;
+            color: #00ffcc;
+            padding: 30px 50px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 0 20px #00ffcc;
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        span {
+            font-size: 1.5rem;
+        }
